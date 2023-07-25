@@ -2,7 +2,7 @@
 import random
 number = random.randint(-10, 10)
 #YOUR CODE HERE
-number= input("Enter an integer: ")
+#number= input("Enter an integer: ")
 number= int(number)
 if number > 0:
     print("{} is positive".format(number))
