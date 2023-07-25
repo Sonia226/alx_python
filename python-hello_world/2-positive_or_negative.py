@@ -2,11 +2,11 @@
 import random
 number = random.randint(-10, 10)
 #YOUR CODE HERE
-number= input("Enter a number: ")
+number= input("Enter an integer: ")
 number= int(number)
 if number > 0:
     print("{} is positive".format(number))
 elif number == 0:
     print("{} is zero".format(number))
-#elif number < 0:
+elif number < 0:
     print("{} is negative".format(number))
