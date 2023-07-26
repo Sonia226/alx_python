@@ -1,2 +1,2 @@
 for num in range(99):
-    print(f"{num:2d} - {num:02X}")
+    print("{:2d} - {:02X}".format(num, num))
