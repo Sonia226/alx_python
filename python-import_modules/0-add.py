@@ -1,4 +1,4 @@
-add = __import__("add_0").add
+from add_0 import add
 if __name__ == "__main__":
  pass
 a = 1
