@@ -1,5 +1,5 @@
 add = __import__("add_0").add
-if __name__ == "__main_-":
+if __name__ == "__main__":
  pass
 a = 1
 b = 2
