@@ -1,12 +1,10 @@
+"""This a Module that fetches the URL using requests package"""
+import requests
 """
-This a module that fetches the URL using request package
-"""
-import request
-"""
-This is importing the request method
+This imports the requests method
 """
 if __name__ == "__main__":
-    response = request.get("https://alu-intranet.hbtn.io/status")
+    response = requests.get("https://alu-intranet.hbtn.io/status")
     """
     saves the requests in a variable
     """
